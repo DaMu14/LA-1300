@@ -9,3 +9,4 @@
 | 7.1 |    | Die Anzahl Versuche werden angezeigt. | Damian Müller |
 | 8.1 |    | Dem Benutzer wird der Highscore angezeigt. | Damian Müller |
 | 9.1 |    | Der Benutzer kann zwischen 5 und unbegrenzten Versuche wählen | Damian Müller |
+| 10.1|     | Das Programm kann Eingabefehler abfangen | Damian Müller|
