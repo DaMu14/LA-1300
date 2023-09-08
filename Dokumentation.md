@@ -12,4 +12,15 @@
 | 10.1| 25.08.23   | Das Programm kann Eingabefehler abfangen | Damian Müller|
 
 
-Testfälle
+### Testfälle
+
+| TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
+|---|---|---|---|
+| 3.1 | Applikation ist gestartet | - | Zahl wird gespeichert|
+| 4.1 | Applikation ist gestartet | 1 oder 2  |  Geben sie eine Zahl ein |
+| 5.1 | Applikation ist gestartet | Zahl | Zahl ist grösser, kleiner oder die richtige Zahl |
+| 6.1 | Eine Zahl wurde eingegeben | - | Zahl ist grösser, kleiner oder die richtige Zahl |
+| 7.1 | Zahl wurde erraten | - | Anzahl Versuche |
+| 8.1 | Zahl wurde erraten | - | Highscore wird angezeigt |
+| 9.1 | Applikation ist gestartet | 1 oder 2 | 5 und unbegrenzten Versuche wählen |
+| 10.1| Applikation ist gestartet | A | Geben sie eine ganze Zahl ein |
