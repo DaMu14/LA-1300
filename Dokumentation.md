@@ -39,4 +39,4 @@
 | 7.1 | 8.9.23 | Anzahl Versuche werden angezeigt | Müller |
 | 8.1 | 8.9.23 | Highscore wird angezeigt | Müller |
 | 9.1 | 8.9.23 | 5 oder unbegrenzte Versuche sind verfügbar | Müller |
-| 10.1| 8.9.23 | 
+| 10.1| 8.9.23 | Fehler wird abgefangen | Müller |
