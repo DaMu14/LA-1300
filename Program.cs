@@ -1,4 +1,29 @@
-﻿using System.ComponentModel.DataAnnotations;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace LA_1300
+{
+    internal class Highscore
+    {
+        private int highscore;
+        public Highscore()
+        {
+            highscore = int.MaxValue;
+        }
+        public void newHighscore(int attempts)
+        {
+            if (attempts < highscore)
+            {
+                highscore = attempts;
+            }
+        }
+    }
+}
+
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.Design;
 using System.Xml.Serialization;
 
@@ -10,6 +35,7 @@ namespace LA_1300
         {
             
             bool PlayGame = true;
+            Highscore Highscore = new Highscore();
 
             while (PlayGame)
             {
@@ -68,14 +94,7 @@ namespace LA_1300
                         correctGuess = true;
                         Console.WriteLine("Glückwunsch! Sie haben die richtige Zahl gefunden. Sie haben " + attempts + " Versuche gebraucht");
 
-                        if (attempts < highscore && maxAttempts !=5)
-                        {
-                            highscore = attempts;
-                        }
-                        else
-                        {
-                            Console.WriteLine();
-                        }
+                        Highscore.newHighscore(attempts);
                     }
   
 
