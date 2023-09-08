@@ -10,3 +10,6 @@
 | 8.1 | 1.9.23     | Dem Benutzer wird der Highscore angezeigt. | Damian Müller |
 | 9.1 | 25.08.23   | Der Benutzer kann zwischen 5 und unbegrenzten Versuche wählen | Damian Müller |
 | 10.1| 25.08.23   | Das Programm kann Eingabefehler abfangen | Damian Müller|
+
+
+Testfälle
